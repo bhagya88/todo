@@ -1,0 +1,102 @@
+body {
+  padding-top: 0px;
+ 
+  
+}
+
+.tododiv{
+ width: 50%;
+ margin-top: 50px;
+ border-top: 1px solid orangered; 
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+background: antiquewhite;
+}
+#main-container{
+ margin-top:50px;
+  
+  text-align:center;
+  
+  
+}
+#input-box {
+  border: none;
+  height: 60px;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 10px 5px #f8f8ff;
+  
+}
+.todo-input{
+line-height: 1.4em;  
+}
+
+.todo-head {
+  font-size: 72px;
+  color: #FFC0CB;
+  text-align:center;
+  margin-bottom: 40px;
+}
+
+.intruc-text {
+  font-size: 10px;
+  margin-top: 30px;
+  text-align:center;
+  width:50%;
+}
+
+.organiser {
+ border-top: 1px solid orangered;
+   text-align:center;
+}
+
+.btn-class {
+  height: 24px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  display: inline-block;
+  
+}
+
+.organiser > div {
+  display: inline-block;
+
+}
+
+.todo-note {
+  border-top: 1px solid orangered;
+  width: 100%;
+  
+  display: inline-block;
+  padding-top: 10px;
+  text-align:center;
+  
+}
+
+.todo-checkbox {
+  display: inline-block;
+  width: 20%;
+  height: 60px;
+
+}
+
+.todo-cross {
+  display: inline-block;
+  width: 20%;
+  height: 60px;
+
+}
+
+.todo-text {
+  display: inline-block;
+  font-size: 20px;
+  width: 50%;
+  height: 60px;
+  text-align:left;
+
+}
+
+.btn-cross {
+  display: inline-block;
+}
