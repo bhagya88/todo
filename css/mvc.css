@@ -1,0 +1,107 @@
+body {
+  padding-top: 0px;
+}
+
+.tododiv{
+   width: 600px;
+ 
+
+  background: #fff;
+    
+   /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px darkseagreen, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+#main-container{
+ margin-top:50px;
+  
+  text-align:center;
+  
+  
+}
+#input-box {
+  border: none;
+  height: 60px;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+ /* box-shadow: 0px 10px 5px #f8f8ff;*/
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px darkseagreen, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+
+.todo-input{
+line-height: 1.4em;  
+}
+
+.todo-head {
+  font-size: 72px;
+  color: #FFC0CB;
+  text-align:center;
+  margin-bottom: 40px;
+}
+
+.intruc-text {
+  font-size: 10px;
+  margin-top: 30px;
+  text-align:center;
+  width:50%;
+}
+
+.organiser {
+border-bottom: 1px solid slategrey;
+  height : 100px;
+   text-align:center;
+   
+}
+
+.btn-class {
+  height: 24px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  display: inline-block;
+  
+}
+
+
+
+todo-note {
+  
+  width:100%;
+  padding-top: 10px;
+  text-align:center;
+ border: 1px solid red;
+  
+}
+
+.todo-checkbox {
+  display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+}    
+
+
+
+.todo-cross {
+  display: inline-block;
+  width: 20%;
+  height: 60px;
+
+}
+
+.todo-text {
+  display: inline-block;
+  font-size: 20px;
+  width:50%;
+  height: 60px;
+  text-align:left;
+
+}
+
+.btn-cross {
+  display: inline-block;
+}
+.dyn-checkbox{
+  display: block;
+}

@@ -36,24 +36,26 @@
     <div class="tododiv">
       <section id="main-container">
         <h1 class="todo-head">todos</h1>
+        <div id="todo-div">   
         <div class="todo-checkbox">
           <input type="checkbox">
         </div>
         <input type="text" id="task-input" class="todo-text" placeholder="What to be done ?">
-        <div class="todo-cross">
+     <div class="todo-cross">
           <button class="btn-cross">
             <span class="glyphicon glyphicon-remove"></span>
           </button>
-        </div>
-
+        </div> 
+         </div>
       </section>
       
       
       <div id="tasks-div" class="todo-note">
         
         <div>
+           
           <div class="todo-checkbox">
-            <input type="checkbox">
+            <input class="dyn-checkbox" type="checkbox">
           </div>
           <div class="todo-text">sample text</div>
           <div class="todo-cross">
@@ -66,19 +68,19 @@
 
       <div id="organiser-div" class="organiser">
         <div id="div-items-left">
-          <button class="btn-class" id="btn-items-left" text="Items left">Items left</button>
+          <label class="label label-default" id="lbl-items-left" text="Items left">Items left</label>
         </div>
         <div id="div-all">
           <button class="btn-class" id="btn-all" text="All">All</button>
         </div>
         <div id="div-active">
-          <button class="btn-class" id="btn-div-active" text="Active">Active</button>
+          <button class="btn-class" id="btn-active" text="Active">Active</button>
         </div>
         <div id="div-completed">
           <button class="btn-class" id="btn-completed" text="Completed">Completed</button>
         </div>
         <div id="div-clear">
-          <button class="btn-class" id="btn-clear" text="Clear">Clear</button>
+          <button class="btn-class" id="btn-clear" text="Clear Completed">Clear</button>
         </div>
       </div>
 
